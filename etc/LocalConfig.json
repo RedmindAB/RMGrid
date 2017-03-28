@@ -1,0 +1,12 @@
+{
+"drivers":[
+  {
+	"type": "chrome"
+}
+],
+ "configuration": {
+        "androidHome": "/Users/petter/adt/adt-bundle-mac-x86_64-20140702/sdk",
+        "hubIp": "localhost",
+        "localIp": "localhost"
+    }
+}
