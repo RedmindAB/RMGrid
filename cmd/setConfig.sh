@@ -18,7 +18,7 @@ fi
 export seleniumVersion=`getLocalConfigParam seleniumVersion`
 export ADB_PATH="$ANDROIDHOME/platform-tools"
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-export RmJar=`find $testHome /node_modules/selenium-server-standalone-jar/jar/selenium-server-standalone*.jar` 
+export RmJar=`find $testHome/node_modules/selenium-server-standalone/index.jar` 
 export appiumBinary="/usr/local/bin/appium"
 export RMTestHubIp=`getLocalConfigParam hubIp`
 export RMTestLocalNodeIp=`getLocalConfigParam localIp`
