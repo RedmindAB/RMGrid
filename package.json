@@ -2,9 +2,10 @@
   "name": "RMGrid",
   "description": "RMGrid",
   "version": "1.0.0",
-  "private": false,
   "dependencies": {
     "appium": "1.6.3",
-    "selenium-server-standalone": "*"
+    "selenium-server-standalone": "*",
+    "phantomjs": "*",
+    "chromedriver": "*"
   }
 }
